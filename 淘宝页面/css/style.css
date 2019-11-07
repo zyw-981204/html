@@ -1,0 +1,52 @@
+.a-block
+{
+	display: block;
+}
+.clearfix：before,.clearfix:after
+{
+	content: "";
+	display: table;
+}
+.clearfix:after
+{
+	clear: both;
+}
+.main-box
+{
+	margin:0 auto;
+	margin-top: 19px;
+	width: 334px;
+
+}
+.box1
+{
+	width: 334px;
+	margin-top: 18px;
+}
+.imgtxt-list
+{
+	float: left;
+	width: 104px;
+	margin-right: 4px;
+}
+.imgtxt-list span
+{
+	display: block;
+	text-align: center;
+	margin-top: 13px;
+	line-height: 18px;
+}
+.txt-list
+{
+	width: 321px;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+.txt-list li
+{
+	float: left;
+	width: 148px;
+	margin-right: 12px;
+	line-height: 24px;
+	align-content: center;
+}
