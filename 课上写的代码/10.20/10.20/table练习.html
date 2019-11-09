@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.table{
+			border-collapse: collapse;/*合并表格边框*/
+			table-layout: fixed;/*表格固定，你设置的宽度是多少就是多少*/
+			width: 596px;
+			height: 115px;
+			text-align: center;/*文本对齐属性：居中；默认值居左*/
+			font-size: 13px;
+		}
+		.table td{
+			border: 1px solid #000;
+		}
+		.table-third-tr td{
+			width: 22px;
+		}
+		.box{
+			width: 200px;
+			height: 100px;
+			background: #000;
+			margin: 10px auto 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<table class="table" cellpadding="0" cellspacing="0" align="center">
+		<tr>
+			<td width="102">分包单位</td>
+			<td colspan="2" width="171">/</td>
+			<td colspan="4">分包项目经理</td>
+			<td colspan="3">/</td>
+			<td colspan="3">施工组班长</td>
+			<td width="87">/</td>
+		</tr>
+		<tr>
+			<td rowspan="2" colspan="2">主控项目</td>
+			<td rowspan="2">操作规定</td>
+			<td colspan="10">施工单位检查评点记录</td>
+			<td rowspan="2">监理（建设）<br>单位验收记录</td>
+		</tr>
+		<tr class="table-third-tr">
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+		</tr>
+	</table>
+
+	<div class="box"></div>
+</body>
+</html>

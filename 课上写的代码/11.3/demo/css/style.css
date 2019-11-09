@@ -1,0 +1,36 @@
+.container{
+	width: 332px;
+	margin: 0 auto;
+}
+.imgText-list{
+	padding-top: 20px;
+	border-top: 1px dashed #000;
+	margin-top: 19px;
+}
+.imgText-list li{
+	float: left;/*浮动元素，宽度能写尽可能写上*/
+	width: 103px;
+	margin-right: 6px;
+}
+.imgText-img-link{
+	display: block;
+}
+.imgText-text-link{
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 12px;
+}
+.text-link{
+	margin-top: 5px;
+}
+.text-link li{
+	float: left;
+	width: 162px;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 3px;
+}
+.red{
+	color: #ff1111;
+}

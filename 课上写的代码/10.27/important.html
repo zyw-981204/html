@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>important</title>
+	<style>
+		/*
+		 1.同类型的选择器，代码越下面权重越高！
+		 2.ID选择>类选择器>标签选择器
+		*/
+		#green{
+			color: #00ff00;/*绿色*/
+		}
+		.yellow{
+			color: yellow;
+		}
+		.yellow_01{
+			color: #d29104;/*棕黄色*/
+		}
+		li{
+			color: #ff0000 !important; /*红色*/  /*rgb(255,0,0);*/ /*#f00;*/ /* #ff0000; */ /*red;*/
+		}
+		li{
+			color: #0000ff;/*蓝色*/
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li class="yellow_01 yellow" id="green">1列表列表</li>
+		<li>2列表列表</li>
+		<li>3列表列表</li>
+		<li>4列表列表</li>
+		<li>5列表列表</li>
+	</ul>
+
+	<ol>
+		<li>1列表列表</li>
+		<li class="yellow">2列表列表</li>
+		<li>3列表列表</li>
+		<li>4列表列表</li>
+		<li>5列表列表</li>
+	</ol>
+</body>
+</html>

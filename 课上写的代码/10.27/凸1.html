@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;/*0等价 0 0 0 0;*/
+			padding: 0;
+		}
+		.box{
+			width: 200px;
+			height: auto;
+			margin: 20px auto 0;
+		}
+		.box-header{
+			width: 58px;
+			height: 57px;
+			border: #292319 20px solid;
+			border-bottom: 0;
+			margin: 0 auto -21px;
+		}
+		.box-other .left{
+			border-bottom: 20px #292319 solid;
+			padding: 0 0 0 71px;
+		}
+		.box-other .right{
+			border-bottom: 20px #292319 solid;
+			padding: 0 0 0 71px;
+			margin-left: 58px;
+		}
+		.box-container{
+			width: 160px;
+			height: 160px;
+			border: 20px #292319 solid;
+			border-top: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="box-header"></div>
+		<div class="box-other"><span class="left"></span><span class="right"></span></div>
+		<div class="box-container"></div>
+	</div>
+	
+
+	<div class="box">
+		<div class="box-header"></div>
+		<div class="box-other"><span class="left"></span><span class="right"></span></div>
+		<div class="box-container"></div>
+	</div>
+
+	<div class="box">
+		<div class="box-header"></div>
+		<div class="box-other"><span class="left"></span><span class="right"></span></div>
+		<div class="box-container"></div>
+	</div>
+</body>
+</html>

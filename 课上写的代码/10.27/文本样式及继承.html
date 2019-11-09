@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文本样式都可被继承！</title>
+	<style>
+		body{ margin: 0; padding: 0; }
+
+		body{
+			color: #f00;/*字体颜色*/
+			font-size: 24px;/*字体大小*/
+			font-family: '黑体';/*字体*/
+			letter-spacing: 5px;/*字间距*/
+			text-decoration: underline;/* overline; */ /* line-through; */ /* underline; */
+			text-align: center;/*文本对齐,只能对块元素设置*/
+			line-height: 50px;/*行高,只能对块元素设置*/
+		}
+	</style>
+</head>
+<body>
+	主题文体<br>主题文体
+	<div>
+		<ul>
+			<li>这个列表<br>这个列表</li>
+		</ul>
+	</div>
+</body>
+</html>

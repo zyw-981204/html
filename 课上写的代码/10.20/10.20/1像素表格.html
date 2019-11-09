@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*标签选择器: 标签位命名的*/
+		/* table{
+			border-collapse: collapse;
+		}
+		td{
+			border: 1px solid #000000;
+		} */
+
+		/*类选择器：英文句号开头，名称自定义但必须是英文单词开头之后允许字母数字下划线减号*/
+		.zdd-table{
+			/*table-layout: fixed;表格固定，你设置的宽度是多少就是多少*/
+			/* width: 600px; */
+			border-collapse: collapse;
+			font-size: 14px;
+		}
+		/* .zdd-table-td{
+			border: 1px solid #000000;
+		} */
+		.zdd-table td{/*派生选择器*/
+			border: 1px solid #000000;
+		}
+	</style>
+</head>
+<body>
+	<!--
+	html注释
+	-->
+	<table class="zdd-table" border="0" cellpadding="0" cellspacing="0" style="margin-top: 20px;">
+		<tr>
+			<td rowspan="2">阿里巴巴</td>
+			<td>我要买</td>
+			<td>我要卖</td>
+			<td>我的淘宝</td>
+		</tr>
+		<tr>
+			<td colspan="3">你好。。。</td>
+		</tr>
+	</table>
+
+	<table border="1" width="400" height="200" style="margin-top: 20px;">
+		<tr>
+			<td>手机</td>
+			<td colspan="3">办公</td>
+		</tr>
+		<tr>
+			<td rowspan="3">各种卡</td>
+			<td>铅笔</td>
+			<td>彩笔</td>
+			<td>粉笔</td>
+		</tr>
+		<tr>
+			<td>打印</td>
+			<td>刻录</td>
+			<td>磨盘</td>
+		</tr>
+		<tr>
+			<td>笔记</td>
+			<td>钢笔</td>
+			<td>墨水</td>
+		</tr>
+	</table>
+</body>
+</html>

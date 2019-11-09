@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!--
+	get   获取数据
+	post  新增数据（登录、注册等）
+	put   修改数据
+	delet 删除数据
+	-->
+
+	<form action="https://www.baidu.com/" method="get">
+		<div><input name="search" type="text" value="hello"></div>
+		<div><input name="age" type="text"></div>
+		<div><input name="type" value="1" type="hidden"></div>
+		<div>
+			<label><input type="radio" name="sex_1" checked="">男</label>
+			<label><input type="radio" name="sex_1">女</label>
+			<label><input type="radio" name="sex_1" disabled="">未知</label>
+		</div>
+		<div>
+			<label><input type="checkbox" name="buy">书</label>
+			<label><input type="checkbox" name="buy">笔</label>
+		</div>
+		<div><input type="submit" value="提交"></div>
+		<div><input type="button" value="没有的按钮"></div>
+		<div><input type="reset" value="重置"></div>
+		<div>
+			<select name="month">
+				<option value="1">1月</option>
+				<option value="2">2月</option>
+				<option value="3">3月</option>
+				<option value="4">4月</option>
+				<option value="5">5月</option>
+				<option value="6">6月</option>
+				<option value="7">7月</option>
+				<option value="8">8月</option>
+				<option value="9">9月</option>
+				<option value="10">10月</option>
+				<option value="11">11月</option>
+				<option value="12">12月</option>
+			</select>
+		</div>
+		<div>
+			<textarea name="">多行文本域/文本域</textarea>
+			<textarea name="" disabled="">多行文本域/文本域</textarea>
+		</div>
+	</form>
+</body>
+</html>

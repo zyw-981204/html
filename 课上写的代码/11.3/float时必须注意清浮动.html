@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		/*清浮动*/
+		.claerfix:before,.claerfix:after{
+			content: ""; display: table;
+		}
+		.claerfix:after{
+			clear: both;
+		}
+
+		.box{
+			/*overflow: hidden; 溢出隐藏，清浮动作用*/
+			background: #f00;/*红*/
+		}
+		.box span{
+			float: left;
+			background: #00f;/*蓝*/
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- 什么时候需清浮动: 当父元素无浮动且父元素高度设为自动，且子元素有浮动时；必须给父元素清浮动。
+ -->
+	<div class="box claerfix">
+		<span>1</span>
+		<span>2</span>
+		<span>3</span>
+		<span>4</span>
+		<span>5</span>
+	</div>
+
+	<div style="background: #000; height: 100px;"></div>
+</body>
+</html>
