@@ -1,0 +1,36 @@
+body,html,label,input,select,h1,h2,h3,h4,h5,h6,span,textarea,a,img,p,div,ul,li,ol,table,tr,td,section,form,header,footer,dl,dt,dd
+{
+	margin: 0;
+	padding: 0;
+
+}
+ ul,li
+{
+	list-style: none;
+
+}
+a
+{
+	list-style: none;	/*去掉样式*/
+	text-decoration: none;/*	a标签去下划线*/
+}
+a:hover
+{
+	color: red;
+}
+body
+{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #9eaab3;
+	background: #fff ;
+}
+.clearfix：before,.clearfix:after
+{
+	content: "";
+	display: table;
+}
+.clearfix:after
+{
+	clear: both;
+}/*清浮动*/

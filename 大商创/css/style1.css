@@ -1,0 +1,34 @@
+
+.layer1{
+	width: 950px;
+	margin:0 auto;
+	background: #fff;
+	z-index: 1;
+	
+}
+.layer2{
+	width: 1090px;
+	margin:0 auto;
+	background: #fff;
+	z-index: 2;
+}
+.layer1 a{
+	width: 230px;
+	height: 171px;
+	float:left;
+	padding-right: 6px;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	position: relative;
+}
+.button1-play{
+	width: 67px;
+	height: 67px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin:0 auto;
+	margin-left: -33px;
+	margin-top: -33px;
+	background: url(../img/playbutton.png) no-repeat ;
+}
